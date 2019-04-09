@@ -1,3 +1,3 @@
 # ColorGame
 
-## Creating a RGB game to enhance your color guessing skills for RGB
+## Creating a RGB game to enhance your color guessing skills
