@@ -12,13 +12,21 @@ var modeButtons = document.querySelectorAll(".mode")
 init();
 
 function init(){
-
+    // Initate the run and "reset" to get everthing working 
+    // from no colors to all squares have color
     setUpModeButtons()
     setUpSquares()
     reset();
 }
 
 function setUpModeButtons(){
+    // SET UP MODE BUTTONS FUNCTION
+    // the switch button between easy & hard
+    // Easy: 1 by 3 [][][]
+    // 
+    // Hard: 3 by 3 [][][]
+    //              [][][]
+    //              [][][]
     //mode button event listener
     for (var i = 0; i < modeButtons.length; i++) {
         modeButtons[i].addEventListener("click", function () {
@@ -38,6 +46,7 @@ function setUpModeButtons(){
 }
 
 function setUpSquares(){
+    // literally..
     // COLOR ALL SQUARES
     for (var i = 0; i < squares.length; i++) {
         // add initial color to squares
@@ -65,6 +74,12 @@ function setUpSquares(){
 }
 
 function reset(){
+    // RESET FUNCTION:
+    // generate new colors, generate picked colors
+    // this function reset all thhe colors in the squares
+    // reset background color, display message, and display button
+    
+
     //generate all new colors
     colors = generateRandomColors(numSquares);
     //pick a new random color from array
