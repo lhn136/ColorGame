@@ -1,5 +1,5 @@
 # RGB GAME
-[Try out my game](https://lhn136.github.io/ColorGame/colorGame.html)
+[##PLAY ME](https://lhn136.github.io/ColorGame/colorGame.html)
 
 #INFO
 ## Creating a RGB game to enhance your color guessing skills
