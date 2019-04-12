@@ -1,5 +1,7 @@
 # RGB GAME
-[button url="https://lhn136.github.io/ColorGame/colorGame.html"]
+[Try out my game](https://lhn136.github.io/ColorGame/colorGame.html)
+
+#INFO
 ## Creating a RGB game to enhance your color guessing skills
 
 This game has 3 "setting" buttons
