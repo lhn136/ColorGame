@@ -8,20 +8,20 @@ This game has 3 "setting" buttons
 
 ### Easy has only 3 squares
 
-![image info](./easy.png)
+![image info](./imgs/easy.png)
 
 ### Hard has 6 squares 
 
-![image info](./starting.png)
+![image info](./imgs/starting.png)
 
 #### upon clicking the board will reset all the colors
 
 #### squares will disappear to show user that it's incorrect
 
-![image info](./incorrectclick.png)
+![image info](./imgs/incorrectclick.png)
 
 ### When user wins
 #### background, buttons, and squares will changed to the presented RGB on top
 #### in our case RGB(217, 165, 220) will fill out the colors
 
-![image info](./Winner.png)
+![image info](./imgs/winner.png)
