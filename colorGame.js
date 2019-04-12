@@ -65,6 +65,21 @@ function setUpSquares(){
                 resetButton.textContent = "Play Again?"
                 messageDisplay.textContent = "Correct!";
                 h1.style.backgroundColor = clickedColor;
+                resetButton.style.color = clickedColor;
+                messageDisplay.style.color = clickedColor;
+                // document.querySelector(".mode.selected").style.color(clickedColor);
+
+                for (var i = 0; i < modeButtons.length; i++)
+                {
+                    modeButtons[i].style.color = clickedColor;
+                    if (modeButtons[i].classList.value === "mode")
+                    {
+                        modeButtons[i].style.color=(clickedColor);
+                    } else{
+                        modeButtons[i].style.color = "white"
+                        modeButtons[i].style.background=(clickedColor);
+                    }
+                }
             } else {
                 this.style.backgroundColor = "#232323";
                 messageDisplay.textContent = "Try again"
@@ -97,6 +112,19 @@ function reset(){
     messageDisplay.textContent = "";
     h1.style.backgroundColor = "SteelBlue";
     resetButton.textContent = "New Colors";
+    resetButton.style.color = "SteelBlue";
+    messageDisplay.style.color = "SteelBlue";
+
+    for (var i = 0; i < modeButtons.length; i++) {
+        if (modeButtons[i].classList.value === "mode") {
+            modeButtons[i].style.color = ("SteelBlue");
+            modeButtons[i].style.background = "white";
+        } else {
+            modeButtons[i].style.color = "white";
+            modeButtons[i].style.background = ("SteelBlue");
+        }
+    }
+
 }
 
 
