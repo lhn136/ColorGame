@@ -110,18 +110,18 @@ function reset(){
         }
     }
     messageDisplay.textContent = "";
-    h1.style.backgroundColor = "SteelBlue";
+    h1.style.backgroundColor = "rgb(22, 199, 166) ";
     resetButton.textContent = "New Colors";
-    resetButton.style.color = "SteelBlue";
-    messageDisplay.style.color = "SteelBlue";
+    resetButton.style.color = "rgb(22, 199, 166) ";
+    messageDisplay.style.color = "rgb(22, 199, 166) ";
 
     for (var i = 0; i < modeButtons.length; i++) {
         if (modeButtons[i].classList.value === "mode") {
-            modeButtons[i].style.color = ("SteelBlue");
+            modeButtons[i].style.color = ("rgb(22, 199, 166) ");
             modeButtons[i].style.background = "white";
         } else {
             modeButtons[i].style.color = "white";
-            modeButtons[i].style.background = ("SteelBlue");
+            modeButtons[i].style.background = ("rgb(22, 199, 166) ");
         }
     }
 
@@ -141,7 +141,7 @@ resetButton.addEventListener("click", function(){
     //     squares[i].style.backgroundColor = colors[i];
     // }
     // messageDisplay.textContent ="";
-    // h1.style.backgroundColor = "SteelBlue";
+    // h1.style.backgroundColor = "70AE98";
     // this.textContent = "New Colors";
     reset();
 });
