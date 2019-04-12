@@ -81,7 +81,7 @@ function setUpSquares(){
                     }
                 }
             } else {
-                this.style.backgroundColor = "#232323";
+                this.style.backgroundColor = "#E5E5E5";
                 messageDisplay.textContent = "Try again"
             }
         });
